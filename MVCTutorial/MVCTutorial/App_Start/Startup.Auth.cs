@@ -60,8 +60,8 @@ namespace MVCTutorial
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "238078812591-4t9hm98si37lk8d52fqt6iepas4eh12m.apps.googleusercontent.com",
-                ClientSecret = "L-TmXmF5T1hw5IluDnAFiwVe"
+                ClientId = "",
+                ClientSecret = ""
             });
         }
     }
